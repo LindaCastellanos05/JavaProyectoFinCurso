@@ -10,7 +10,7 @@ package vista;
  * @author dave_
  */
 public class Producto extends javax.swing.JFrame {
-
+ 
     /**
      * Creates new form Producto
      */
