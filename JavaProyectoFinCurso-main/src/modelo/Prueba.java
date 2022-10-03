@@ -12,5 +12,6 @@ package modelo;
 public class Prueba {
     
     int var;
+    int var2;
     
 }
