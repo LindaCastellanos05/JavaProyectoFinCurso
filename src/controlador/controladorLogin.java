@@ -42,9 +42,30 @@ public class controladorLogin implements ActionListener{
              
             int respuesta = daologin.login(moduser);
             
+            //si es admin
             if(respuesta==1){
                 System.out.println("Bienvenido");
-                JOptionPane.showMessageDialog(null, "Bienvenido");
+                JOptionPane.showMessageDialog(null, "Bienvenido "+user);
+                controladorAdmin ca = new controladorAdmin(moduser);
+                
+            //si es cajero
+            }else if(respuesta==2){
+                System.out.println("Bienvenido");
+                JOptionPane.showMessageDialog(null, "Bienvenido "+user);
+                controladorCajero cc = new controladorCajero(moduser);
+                
+            //si es vendedor    
+            }else if(respuesta==3){
+                System.out.println("Bienvenido");
+                JOptionPane.showMessageDialog(null, "Bienvenido "+user);
+                controladorVendedor cv = new controladorVendedor(moduser);
+                
+            //si es bodeguero
+            }else if(respuesta==4){
+                System.out.println("Bienvenido");
+                JOptionPane.showMessageDialog(null, "Bienvenido "+user);
+                controladorBodeguero cb = new controladorBodeguero(moduser);
+                
             }else{
                 System.out.println("Usuario y/o contraseña incorrectos :c");
                  JOptionPane.showMessageDialog(null, "Usuario y/o contraseña incorrectos :c");

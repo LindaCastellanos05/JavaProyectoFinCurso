@@ -82,7 +82,7 @@ public class PerfilCajero extends javax.swing.JFrame {
         btnVentaCajero.setForeground(new java.awt.Color(255, 255, 255));
         btnVentaCajero.setText("Nueva Ventra");
         btnVentaCajero.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.add(btnVentaCajero, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, 111, 30));
+        jPanel1.add(btnVentaCajero, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 111, 30));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/inventario.png"))); // NOI18N
         jLabel4.setAutoscrolls(true);
@@ -126,7 +126,7 @@ public class PerfilCajero extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 563, Short.MAX_VALUE)
         );
 
         pack();

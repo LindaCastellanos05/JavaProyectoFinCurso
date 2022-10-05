@@ -64,18 +64,18 @@ public class conexion {
          }
     }
     
-    public static void main(String[] args) throws SQLException{
+   /* public static void main(String[] args) throws SQLException{
         conexion con = new conexion();
         con.conectar();
-        /*//Linda:prueba agregar categoria---si sirve
+      Linda:prueba agregar categoria---si sirve
         modeloCategoria modacat = new modeloCategoria();
         controladorCategoria cc = new controladorCategoria(modacat);
-        */
-       /* //Linda:prueba iniciar sesion login:---si sirve
+       
+      Linda:prueba iniciar sesion login:---si sirve
         ModeloUsuario modusuario = new ModeloUsuario();
         controladorLogin clogin = new controladorLogin(modusuario);
-       */
-        }  
+       
+        }*/
     }
     
 

@@ -42,11 +42,35 @@ public class daoLogin extends conexion {
             
             
             if(rs.first()){
-                if(usuario.getPwd_usuario().equals(rs.getString("pwd_usuario"))){
+                //inicio de sesion como admin
+                if(usuario.getPwd_usuario().equals(rs.getString("pwd_usuario"))&&rs.getString("idtipo_usuario").equals("5")){
                      System.out.println("pwd"+usuario.getPwd_usuario());
                     System.out.println("si existe usuario en base y contraseña correcta");
                     result=1;
                     return result;
+                    
+                    //inicio de sesion como cajero
+                }else if(usuario.getPwd_usuario().equals(rs.getString("pwd_usuario"))&&rs.getString("idtipo_usuario").equals("6")){
+                     System.out.println("pwd"+usuario.getPwd_usuario());
+                    System.out.println("si existe usuario en base y contraseña correcta");
+                    result=2;
+                    return result;
+                    
+                    //inicio de sesion como vendedor
+                }else if(usuario.getPwd_usuario().equals(rs.getString("pwd_usuario"))&&rs.getString("idtipo_usuario").equals("7")){
+                     System.out.println("pwd"+usuario.getPwd_usuario());
+                    System.out.println("si existe usuario en base y contraseña correcta");
+                    result=3;
+                    return result;
+                    
+                    //inicio de sesion como bodeguero
+                }else if(usuario.getPwd_usuario().equals(rs.getString("pwd_usuario"))&&rs.getString("idtipo_usuario").equals("8")){
+                     System.out.println("pwd"+usuario.getPwd_usuario());
+                    System.out.println("si existe usuario en base y contraseña correcta");
+                    result=4;
+                    return result;
+                    
+                    //inicio de sesion incorrecto
                 }else{
                      System.out.println("pwd"+usuario.getPwd_usuario());
                      System.out.println("NO existe usuario en base y contraseña correcta");
