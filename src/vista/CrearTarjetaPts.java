@@ -35,16 +35,16 @@ public class CrearTarjetaPts extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jTextField9 = new javax.swing.JTextField();
+        txtdpicliente = new javax.swing.JTextField();
         jSeparator10 = new javax.swing.JSeparator();
-        jTextField10 = new javax.swing.JTextField();
+        txtidusuario = new javax.swing.JTextField();
         jSeparator11 = new javax.swing.JSeparator();
-        jTextField13 = new javax.swing.JTextField();
+        txtpuntos = new javax.swing.JTextField();
         jSeparator14 = new javax.swing.JSeparator();
-        jDateChooser2 = new com.toedter.calendar.JDateChooser();
+        txtfechacrear = new com.toedter.calendar.JDateChooser();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        jButton5 = new javax.swing.JButton();
+        btnguardartarjeta = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
 
@@ -104,18 +104,18 @@ public class CrearTarjetaPts extends javax.swing.JFrame {
         jLabel4.setText("ID usuario:");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
-        jTextField9.setBorder(null);
-        jPanel1.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 175, -1));
+        txtdpicliente.setBorder(null);
+        jPanel1.add(txtdpicliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 175, -1));
         jPanel1.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 140, 175, 10));
 
-        jTextField10.setBorder(null);
-        jPanel1.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 160, 175, -1));
+        txtidusuario.setBorder(null);
+        jPanel1.add(txtidusuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 160, 175, -1));
         jPanel1.add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 180, 175, 10));
 
-        jTextField13.setBorder(null);
-        jPanel1.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 175, -1));
+        txtpuntos.setBorder(null);
+        jPanel1.add(txtpuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 175, -1));
         jPanel1.add(jSeparator14, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 175, 10));
-        jPanel1.add(jDateChooser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 175, -1));
+        jPanel1.add(txtfechacrear, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 175, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -132,17 +132,17 @@ public class CrearTarjetaPts extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 630, 400));
 
-        jButton5.setBackground(new java.awt.Color(0, 93, 139));
-        jButton5.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Guardar");
-        jButton5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btnguardartarjeta.setBackground(new java.awt.Color(0, 93, 139));
+        btnguardartarjeta.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
+        btnguardartarjeta.setForeground(new java.awt.Color(255, 255, 255));
+        btnguardartarjeta.setText("Guardar");
+        btnguardartarjeta.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnguardartarjeta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btnguardartarjetaActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 530, 80, 30));
+        jPanel1.add(btnguardartarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 530, 80, 30));
 
         jButton6.setBackground(new java.awt.Color(0, 93, 139));
         jButton6.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
@@ -177,9 +177,9 @@ public class CrearTarjetaPts extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnguardartarjetaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnguardartarjetaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btnguardartarjetaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -218,10 +218,9 @@ public class CrearTarjetaPts extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Admin;
-    private javax.swing.JButton jButton5;
+    public javax.swing.JButton btnguardartarjeta;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
-    private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
@@ -234,8 +233,9 @@ public class CrearTarjetaPts extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator11;
     private javax.swing.JSeparator jSeparator14;
     private javax.swing.JTable jTable1;
-    public javax.swing.JTextField jTextField10;
-    public javax.swing.JTextField jTextField13;
-    public javax.swing.JTextField jTextField9;
+    public javax.swing.JTextField txtdpicliente;
+    private com.toedter.calendar.JDateChooser txtfechacrear;
+    public javax.swing.JTextField txtidusuario;
+    public javax.swing.JTextField txtpuntos;
     // End of variables declaration//GEN-END:variables
 }

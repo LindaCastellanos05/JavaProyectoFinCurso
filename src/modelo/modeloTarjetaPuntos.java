@@ -13,8 +13,8 @@ public class modeloTarjetaPuntos {
     
     //variables
     private int id_tarjetapuntos;
-    private int dpicliente_puntos;
     private int idcajero_puntos;
+    private String dpicliente_puntos;
     private String lat_puntos;
     private String lon_puntos;
     private String num_puntos;
@@ -25,7 +25,7 @@ public class modeloTarjetaPuntos {
         
     }
 
-    public modeloTarjetaPuntos(int id_tarjetapuntos, int dpicliente_puntos, int idcajero_puntos, String lat_puntos, String lon_puntos, String num_puntos, String fecha_puntos) {
+    public modeloTarjetaPuntos(int id_tarjetapuntos, String dpicliente_puntos, int idcajero_puntos, String lat_puntos, String lon_puntos, String num_puntos, String fecha_puntos) {
         this.id_tarjetapuntos = id_tarjetapuntos;
         this.dpicliente_puntos = dpicliente_puntos;
         this.idcajero_puntos = idcajero_puntos;
@@ -45,11 +45,11 @@ public class modeloTarjetaPuntos {
         this.id_tarjetapuntos = id_tarjetapuntos;
     }
 
-    public int getDpicliente_puntos() {
+    public String getDpicliente_puntos() {
         return dpicliente_puntos;
     }
 
-    public void setDpicliente_puntos(int dpicliente_puntos) {
+    public void setDpicliente_puntos(String dpicliente_puntos) {
         this.dpicliente_puntos = dpicliente_puntos;
     }
 

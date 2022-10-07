@@ -43,25 +43,25 @@ public class CrearCliente extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jSeparator10 = new javax.swing.JSeparator();
-        jTextField9 = new javax.swing.JTextField();
+        txtnombrecliente = new javax.swing.JTextField();
         jSeparator11 = new javax.swing.JSeparator();
-        jTextField10 = new javax.swing.JTextField();
+        txtapellcliente = new javax.swing.JTextField();
         jSeparator12 = new javax.swing.JSeparator();
-        jTextField11 = new javax.swing.JTextField();
+        txtnitcliente = new javax.swing.JTextField();
         jSeparator13 = new javax.swing.JSeparator();
-        jTextField12 = new javax.swing.JTextField();
+        txtcelcliente = new javax.swing.JTextField();
         jSeparator14 = new javax.swing.JSeparator();
-        jTextField13 = new javax.swing.JTextField();
+        txtdireccliente = new javax.swing.JTextField();
         jSeparator15 = new javax.swing.JSeparator();
-        jTextField14 = new javax.swing.JTextField();
+        txtdpicliente = new javax.swing.JTextField();
         jSeparator16 = new javax.swing.JSeparator();
-        jTextField15 = new javax.swing.JTextField();
+        txtcorreocliente = new javax.swing.JTextField();
         jSeparator17 = new javax.swing.JSeparator();
-        jTextField16 = new javax.swing.JTextField();
-        jDateChooser2 = new com.toedter.calendar.JDateChooser();
+        txttarjcliente = new javax.swing.JTextField();
+        txtfechanac = new com.toedter.calendar.JDateChooser();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        jButton5 = new javax.swing.JButton();
+        btnguardarcliente = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jLabel13 = new javax.swing.JLabel();
@@ -150,42 +150,42 @@ public class CrearCliente extends javax.swing.JFrame {
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(74, 121, -1, -1));
         jPanel1.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 140, 175, 10));
 
-        jTextField9.setBorder(null);
-        jPanel1.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 175, -1));
+        txtnombrecliente.setBorder(null);
+        jPanel1.add(txtnombrecliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 175, -1));
         jPanel1.add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, 175, 10));
 
-        jTextField10.setBorder(null);
-        jPanel1.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 175, -1));
+        txtapellcliente.setBorder(null);
+        jPanel1.add(txtapellcliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 175, -1));
         jPanel1.add(jSeparator12, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 175, 10));
 
-        jTextField11.setBorder(null);
-        jPanel1.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 175, -1));
+        txtnitcliente.setBorder(null);
+        jPanel1.add(txtnitcliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 175, -1));
         jPanel1.add(jSeparator13, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 320, 175, 10));
 
-        jTextField12.setBorder(null);
-        jPanel1.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 300, 175, -1));
+        txtcelcliente.setBorder(null);
+        jPanel1.add(txtcelcliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 300, 175, -1));
         jPanel1.add(jSeparator14, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 360, 175, 10));
 
-        jTextField13.setBorder(null);
-        jPanel1.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 175, -1));
+        txtdireccliente.setBorder(null);
+        jPanel1.add(txtdireccliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 175, -1));
         jPanel1.add(jSeparator15, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 410, 175, 10));
 
-        jTextField14.setBorder(null);
-        jPanel1.add(jTextField14, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 380, 175, -1));
+        txtdpicliente.setBorder(null);
+        jPanel1.add(txtdpicliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 380, 175, -1));
         jPanel1.add(jSeparator16, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 550, 175, 10));
 
-        jTextField15.setBorder(null);
-        jPanel1.add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 540, 175, -1));
+        txtcorreocliente.setBorder(null);
+        jPanel1.add(txtcorreocliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 540, 175, -1));
         jPanel1.add(jSeparator17, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 510, 175, 10));
 
-        jTextField16.setBorder(null);
-        jTextField16.addActionListener(new java.awt.event.ActionListener() {
+        txttarjcliente.setBorder(null);
+        txttarjcliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField16ActionPerformed(evt);
+                txttarjclienteActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 490, 175, 20));
-        jPanel1.add(jDateChooser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 175, -1));
+        jPanel1.add(txttarjcliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 490, 175, 20));
+        jPanel1.add(txtfechanac, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 175, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -202,17 +202,17 @@ public class CrearCliente extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 640, 440));
 
-        jButton5.setBackground(new java.awt.Color(0, 93, 139));
-        jButton5.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Guardar");
-        jButton5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btnguardarcliente.setBackground(new java.awt.Color(0, 93, 139));
+        btnguardarcliente.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
+        btnguardarcliente.setForeground(new java.awt.Color(255, 255, 255));
+        btnguardarcliente.setText("Guardar");
+        btnguardarcliente.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnguardarcliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btnguardarclienteActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 580, 80, 30));
+        jPanel1.add(btnguardarcliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 580, 80, 30));
 
         jButton6.setBackground(new java.awt.Color(0, 93, 139));
         jButton6.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
@@ -265,17 +265,17 @@ public class CrearCliente extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnguardarclienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnguardarclienteActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btnguardarclienteActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
-    private void jTextField16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField16ActionPerformed
+    private void txttarjclienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttarjclienteActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField16ActionPerformed
+    }//GEN-LAST:event_txttarjclienteActionPerformed
 
     /**
      * @param args the command line arguments
@@ -315,10 +315,9 @@ public class CrearCliente extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Admin;
     private javax.swing.ButtonGroup btggeneroCliente;
-    private javax.swing.JButton jButton5;
+    public javax.swing.JButton btnguardarcliente;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
-    private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -346,13 +345,14 @@ public class CrearCliente extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator16;
     private javax.swing.JSeparator jSeparator17;
     private javax.swing.JTable jTable1;
-    public javax.swing.JTextField jTextField10;
-    public javax.swing.JTextField jTextField11;
-    public javax.swing.JTextField jTextField12;
-    public javax.swing.JTextField jTextField13;
-    public javax.swing.JTextField jTextField14;
-    public javax.swing.JTextField jTextField15;
-    public javax.swing.JTextField jTextField16;
-    public javax.swing.JTextField jTextField9;
+    public javax.swing.JTextField txtapellcliente;
+    public javax.swing.JTextField txtcelcliente;
+    public javax.swing.JTextField txtcorreocliente;
+    public javax.swing.JTextField txtdireccliente;
+    public javax.swing.JTextField txtdpicliente;
+    private com.toedter.calendar.JDateChooser txtfechanac;
+    public javax.swing.JTextField txtnitcliente;
+    public javax.swing.JTextField txtnombrecliente;
+    public javax.swing.JTextField txttarjcliente;
     // End of variables declaration//GEN-END:variables
 }
